@@ -23,7 +23,7 @@ int main() {
 	
 	A *z = new A;
 	
-	A *a = new B(c);
+	B *a = new B(c);
 	A *b = new A(a);
 	A *w = new A(b);
 
