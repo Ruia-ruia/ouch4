@@ -2,7 +2,9 @@
 using namespace std;
 
 class B {
+	B(int* ptr) :int_ptr(ptr) {};
 	
+	int *int_ptr;
 };
 
 class A {
