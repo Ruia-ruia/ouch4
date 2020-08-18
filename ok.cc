@@ -9,6 +9,7 @@ class A {
 public:
 	A() :ptr(nullptr) {};
 	A(B* ptr) :ptr(ptr) {};
+	A(A* ptr) :ptr(ptr) {};
 	A(int* ptr) :int_ptr(ptr) {};
 	
 	B* ptr;
